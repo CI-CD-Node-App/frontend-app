@@ -32,7 +32,7 @@ jobs:
 
       - name: Run unit tests
         run: npm test
-  
+
   # ✅ Build and Push Docker Image
   build-and-push-job:
     runs-on: ubuntu-latest
